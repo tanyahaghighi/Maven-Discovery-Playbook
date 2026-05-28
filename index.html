@@ -444,7 +444,7 @@
 
   <div class="card card-proof">
     <div class="card-label">Proof Points</div>
-    <div class="proof-item"><div class="company">OneTrust</div>Maven runs as both a customer-facing chat agent AND a copilot inside the support team's ticketing workspace simultaneously.</div>
+    <div class="proof-item"><div class="company">OneTrust</div>Running Maven as a copilot inside their support workspace. Phase 2 implementation in progress with a target of resolving 35% of cases through Maven.</div>
     <div class="proof-item"><div class="company">Clio (Legal Tech SaaS)</div>Salesforce integration for the CS team and web chat for customers — same knowledge base powering both, with Databricks connected for data-level personalization.</div>
     <div class="proof-item"><div class="company">Dell</div>Production deployment at enterprise scale across multiple channels. One AI layer spanning a massive CX org.</div>
     <div class="proof-item"><div class="company">Digital.ai (Software, ~970 employees)</div>Maven deployed across chat with deep documentation integration. Running weekly check-ins to tune and improve continuously.</div>
@@ -536,8 +536,8 @@
 
   <div class="card card-proof">
     <div class="card-label">Proof Points</div>
-    <div class="proof-item"><div class="company">OneCause (replacing Forethought)</div>Moved from Forethought to Maven for their Zendesk deployment. Zero disruption to their team's workflow — they stayed in Zendesk, Maven just took over the AI layer.</div>
-    <div class="proof-item"><div class="company">Gynzy (switched from Intercom Fin)</div>Was at 30-40% resolution rate with Fin. Switched to Maven. The shift happened specifically because Maven could take actions — not just answer knowledge questions.</div>
+    <div class="proof-item"><div class="company">TiVo</div>Existing Ada chatbot wasn't meeting expectations and Salesforce couldn't commit to an AgentForce timeline. Maven's agent was stood up, validated, tuned, and deployed publicly in 3 weeks.</div>
+    <div class="proof-item"><div class="company">Aqua Security (Freshdesk)</div>Launched Maven copilot inside Freshdesk in May 2026. Agents get AI-suggested responses and summaries without leaving the tool they already use.</div>
     <div class="proof-item"><div class="company">Aqua Security (Freshdesk)</div>Runs Maven copilot inside Freshdesk workspace. Agents get suggested responses and summaries without leaving the tool they already use.</div>
   </div>
 </section>
@@ -608,9 +608,9 @@
 
   <div class="card card-proof">
     <div class="card-label">Proof Points</div>
-    <div class="proof-item"><div class="company">Bynder (SaaS, ~550 employees)</div>84% of issues resolved from initial Maven implementation. "Complex" creative asset management questions handled without human intervention.</div>
+    <div class="proof-item"><div class="company">Bynder (DAM SaaS)</div>Month one results presented to their CRO, who was "very happy with the results." Strong early performance on creative asset management questions across their Zendesk deployment.</div>
     <div class="proof-item"><div class="company">First Due (Gov-tech SaaS)</div>Successful pilot with high resolution rates — including technically complex fire department software questions. Complexity is not the ceiling.</div>
-    <div class="proof-item"><div class="company">Axway (1,657 employees, 120K tickets/year)</div>Explored Maven specifically because even their complex enterprise software questions were addressable with the right knowledge ingestion.</div>
+    <div class="proof-item"><div class="company">First Due (Gov-tech SaaS)</div>81.8% resolution rate in early beta — 27 out of 33 conversations resolved by Maven. Technically complex fire department software questions handled without human intervention.</div>
   </div>
 
   <div class="card card-anchor">
@@ -770,11 +770,11 @@
   <div class="card card-hear">
     <div class="card-label">What You'll Hear — Scenarios from Real Calls</div>
     <div class="scenario">
-      <div class="s-label">Low Resolution Rate (Gynzy Pattern — Direct from Gong)</div>
+      <div class="s-label">Low Resolution Rate (Common Pattern)</div>
       <div class="s-quote">"We have Intercom Fin. Resolution rate is like 30-40%. We've tried to push it higher but there seems to be a ceiling."</div>
     </div>
     <div class="scenario">
-      <div class="s-label">Replacing Current Tool (OneCause Pattern)</div>
+      <div class="s-label">Replacing Current Tool</div>
       <div class="s-quote">"We're on Forethought but we're not happy with it. The results have been disappointing and we're actively looking for something better."</div>
     </div>
     <div class="scenario">
@@ -834,8 +834,8 @@
 
   <div class="card card-proof">
     <div class="card-label">Proof Points</div>
-    <div class="proof-item"><div class="company">Gynzy (EdTech SaaS)</div>Was running Intercom Fin at 30-40% resolution rate. The ceiling was real — Fin couldn't take actions. Switched to Maven for the Action Engine. The resolution trajectory changed immediately.</div>
-    <div class="proof-item"><div class="company">OneCause (replacing Forethought)</div>Actively replacing Forethought with Maven. The Statement of Work was signed specifically to upgrade the AI layer, not replace Zendesk.</div>
+    <div class="proof-item"><div class="company">FundedNext (Fintech)</div>Was exploring alternatives to Intercom Fin. Quality was the deciding factor — Maven's responses were head and shoulders above Fin. Deployed Maven for 80,000 resolutions across their trading platform.</div>
+    <div class="proof-item"><div class="company">Practice Better (Health SaaS)</div>Had been on Ada for several years and was hitting a ceiling on quality and scalability. Committed to Maven while still under Ada contract — 6 months early. Won on accuracy, auditability, and platform vision over point solution.</div>
     <div class="proof-item"><div class="company">Maven vs. Salesforce / Zendesk</div>From our investor call: "Record-breaking wins against Salesforce and Zendesk." The reason we win is the Graph of Record and Action Engine depth — no bolt-on matches it.</div>
   </div>
 </section>
@@ -964,15 +964,20 @@
       <li>The Graph of Record is what makes personalization real. Maven knows who the customer is, what plan they're on, their usage, their history, their open tickets — simultaneously. That's how you give a contextual answer.</li>
       <li>Data stays in place. We don't build a new data repository. We read from your source systems. That means no data engineering project, no duplication of sensitive data, no sync lag.</li>
       <li>The three engines unlock different tiers of value. You don't have to use all three on day one. Start with the Answer Engine. Layer in Action. Then light up Proactive. That's the crawl-walk-run path.</li>
-      <li>This is how we compare to fine-tuned LLMs and context engineering — Graph of Record gives instant updates, strong personalization, and high automation rates. Fine-tuned models require retraining cycles.</li>
+      <li>This is how we compare to fine-tuned LLMs and context engineering — Graph of Record gives instant updates, strong personalization, and high automation rates. Fine-tuned models require retraining cycles.
+        <div style="margin-top:8px; background:white; border-radius:6px; padding:10px 14px; font-size:12px; color:#374151; border-left:3px solid #0D9488;">
+          <strong style="color:#0D9488; text-transform:uppercase; font-size:10px; letter-spacing:0.05em;">Plain English</strong><br>
+          Some AI tools are trained on a fixed snapshot of your data — so when something changes (new feature, pricing update, policy change) the AI doesn't know until someone retrains it, which takes time. Maven reads from your live systems in real time, so it's always current. No retraining, no lag.
+        </div>
+      </li>
     </ul>
   </div>
 
   <div class="card card-proof">
     <div class="card-label">Proof Points</div>
     <div class="proof-item"><div class="company">Clio (Legal SaaS, 1,200 employees)</div>Maven connected to Salesforce + Databricks simultaneously. CS team and customers both getting personalized, context-aware responses from the same unified data layer.</div>
-    <div class="proof-item"><div class="company">EA (Games, VP of CX — direct persona match)</div>Fragmented data across systems was the stated #1 challenge. Maven's Graph of Record approach was the specific reason for interest — reading across disparate data sources without a centralization project.</div>
-    <div class="proof-item"><div class="company">LexisNexis Risk Solutions (Global Head of Customer Ops)</div>Explored Maven specifically for unifying customer support operations across multiple data sources at global scale.</div>
+    <div class="proof-item"><div class="company">Aqua Security (Cybersecurity)</div>Fragmented knowledge across Freshdesk, Confluence, Bitbucket, and GitHub was the core problem. Maven unified all sources without requiring a data migration or centralization project — and cleared a complex enterprise security review in the process.</div>
+    <div class="proof-item"><div class="company">Quest Software (Enterprise IT)</div>Handling ~57,500 support cases per year at $325/case — nearly $19M in annual support costs. Chose Maven over Salesforce Agentforce for fastest time to value, best answer quality, and clear ROI. Projected $5.5M+ saved annually at 30% deflection.</div>
   </div>
 </section>
 
@@ -1155,7 +1160,7 @@
     <div class="slide-mockup">
       <div class="slide-title">Best-in-Class Realized Impact — Real Customer Results</div>
       <div class="stat-grid">
-        <div class="stat-box"><div class="stat-num">93%</div><div class="stat-label">Resolution Rate — OpenAI case study validated</div></div>
+        <div class="stat-box"><div class="stat-num">90-98%</div><div class="stat-label">Coverage Rate in POC Testing — Invicti achieved 98% with tuning</div></div>
         <div class="stat-box"><div class="stat-num">9M+</div><div class="stat-label">Interactions resolved autonomously — 10x faster</div></div>
         <div class="stat-box"><div class="stat-num">$198M</div><div class="stat-label">Dollars saved across customer base</div></div>
         <div class="stat-box"><div class="stat-num">50%</div><div class="stat-label">Operational cost reduction for mature deployments</div></div>
@@ -1299,7 +1304,7 @@
     <div class="card-label">When They Mention Forethought / Already Replacing It</div>
     <p><strong>What they say:</strong> "We have Forethought but we're not happy with it."</p>
     <br>
-    <p><strong>Your response:</strong> "We've seen this transition a lot — and it usually comes down to the same thing. Forethought gets the knowledge layer working, but it can't go deep enough on personalization and it definitely can't take actions. Companies hit a ceiling and know they need more. The good news is the transition is relatively clean — you keep Zendesk, you just upgrade the AI layer. That's what we did with OneCause. They replaced Forethought with Maven and were live in under 30 days."</p>
+    <p><strong>Your response:</strong> "We've seen this transition a lot — and it usually comes down to the same thing. Forethought gets the knowledge layer working, but it can't go deep enough on personalization and it definitely can't take actions. Companies hit a ceiling and know they need more. The good news is the transition is relatively clean — you keep Zendesk, you just upgrade the AI layer. [ADD REAL CUSTOMER EXAMPLE of a Forethought/Zendesk replacement here]."</p>
   </div>
 
   <div class="card card-competitor">
